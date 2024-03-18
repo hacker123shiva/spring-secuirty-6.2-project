@@ -23,7 +23,7 @@ public class MyUserDetailsService implements UserDetailsService {
 		 System.out.println("User 404");
 		 throw new UsernameNotFoundException("user 404");
 	 }
-		return new UserPrincipal(user);
+	 return new UserPrincipal(user);
 	}
 	
 	 
